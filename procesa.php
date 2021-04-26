@@ -33,7 +33,7 @@
             if($pos3 === false)
                 echo nl2br("\nNo se ha encontrado el dato 3");
             else{
-                echo nl2br("\n Se encontraron \ttodos los datos en las posiciones:\n");
+                echo nl2br("\n Se encontraron todos los datos en las posiciones:\n");
                 echo "$pos1 $pos2 $pos3 Su suma es:";
                 $temp = intval(substr($linea,$pos1,$pos2)) + intval(substr($linea,$pos1,$pos2)) + intval(substr($linea,$pos3,strlen($linea)));
                 echo nl2br("\n $temp");
